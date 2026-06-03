@@ -1,4 +1,4 @@
-{% set version = "1.1.2" %}
+{% set version = "1.2.1" %}
 
 package:
   name: redis-entraid
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/redis-entraid/redis_entraid-{{ version }}.tar.gz
-  sha256: 95c9cb8a779e79f60ec1abfaf51daf78e3731d8621851d2bfa5ca7b1fd8177ab
+  sha256: a7c479ce46e6edb35bce9dd804d1cad7be99a3330815cfe028a648b486a10b41
 
 build:
   noarch: python
